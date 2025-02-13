@@ -1,16 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package ec.edu.espoch.sistemagestionproductos;
 
-/**
- *
- * @author SO-LAB1-PC27
- */
+import ec.edu.espoch.sistemagestionproductos.vista.Vista;
+
+
 public class SistemaGestionProductos {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        Vista objVista = new Vista();
+        
+        objVista.setVisible(true);
+
     }
 }
