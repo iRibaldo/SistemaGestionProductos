@@ -146,7 +146,7 @@ public class Vista extends javax.swing.JFrame {
     }
     
     public void Error (String text){
-        return lblError.setText(text);
+        lblError.setText(text);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
